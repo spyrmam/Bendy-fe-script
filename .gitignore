@@ -89,7 +89,7 @@ LoudVolume = true
 Submerged = false
 Music = true
 script.Name = "InkPerson" -- or Bendy.
-Character = game.Players.LocalPlayer.Character
+Character = owner
 Head = Character.Head
 anim = Character.Humanoid.Animator
 b23 = Instance.new("BoolValue",Character)b23.Name = "InkPerson"
