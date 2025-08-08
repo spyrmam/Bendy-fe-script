@@ -258,13 +258,13 @@ local necko = cn(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 1, 0)
 local attacktype = 1
 local ZTarget, RocketTarget = nil, nil
 local euler = CFrame.fromEulerAnglesXYZ
-local v = game.Players.localPlayer
+local v = owner
 local torso = v.Character.Torso
 -- Bypass
 local trazx = Instance.new("ParticleEmitter")
 local soonds = Instance.new("Sound")
 -- 
-plr = game.Players.LocalPlayer
+plr = owner
 char = game.Players.LocalPlayer.Character
 t = game.Players.LocalPlayer.Character.Torso
 h = game.Players.LocalPlayer.Character.Head
