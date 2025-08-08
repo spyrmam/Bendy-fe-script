@@ -59,7 +59,7 @@ do
 	    end
 	end)
 	Event.Parent = NLS([==[
-	local Player = game:GetService("Players").LocalPlayer
+	local Player = owner
 	local Event = script:WaitForChild("UserInput_Event")
 
 	local UIS = game:GetService("UserInputService")
