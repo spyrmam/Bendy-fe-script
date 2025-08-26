@@ -140,7 +140,7 @@ Character=Player.Character
 PlayerGui=Player.PlayerGui
 Backpack=Player.Backpack 
 Torso=Character.Torso 
-Head=Character.Head 
+--Head=Character.Head 
 Humanoid=Character.Humanoid Humanoid.Name = "Bendy"
 LeftArm=Character["Left Arm"]
 LeftLeg=Character["Left Leg"] 
