@@ -89,13 +89,13 @@ LoudVolume = true
 Submerged = false
 Music = true
 script.Name = "InkPerson" -- or Bendy.
-Character = game.Players.owner.Character
+Character = owner
 Head = Character.Head
 anim = Character.Humanoid.Animator
 b23 = Instance.new("BoolValue",Character)b23.Name = "InkPerson"
 rage = false
 CV="Blue"
-	p = game.Players.owner
+	p = owner
 	char = p.Character
 	local txt = Instance.new("BillboardGui", char)
 	txt.Adornee = char .Head
@@ -130,12 +130,12 @@ CV="Blue"
 	ds = Instance.new("ChorusSoundEffect",s)ds.Enabled = false
 	ds2 = Instance.new("TremoloSoundEffect",s)ds2.Frequency = 1.25 ds2.Depth = 0.75 ds2.Duty = 1.5 ds2.Enabled = false
 	Music = false
-p = game.Players.owner
+p = owner
 char = p.Character
 torso = char.Torso
 neck = char.Torso.Neck
 cos = math.cos
-Player=game:GetService("Players").owner
+Player=owner
 Character=Player.Character 
 PlayerGui=Player.PlayerGui
 Backpack=Player.Backpack 
@@ -223,7 +223,7 @@ LSH=ch.Torso["Left Shoulder"]
 	end
 	
 
-local Player = game.Players.owner
+local Player = owner
 local Character = Player.Character
 local red = 255
 local green = 255
@@ -258,7 +258,7 @@ local necko = cn(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 1, 0)
 local attacktype = 1
 local ZTarget, RocketTarget = nil, nil
 local euler = CFrame.fromEulerAnglesXYZ
-local v = game.Players.owner
+local v = owner
 local torso = v.Character.Torso
 -- Bypass
 local trazx = Instance.new("ParticleEmitter")
